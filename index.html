@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="textarea-wrapper">
+            <textarea oninput="obmedzMaxZnaky(this)"  name="" id="textA" cols="30" rows="10" placeholder="Text"></textarea>
+            <p id="pocetZnakov">150</p>
+        </div>
+        <button id="analiza">SPUSTIT ANALIZU</button>
+        <br>
+        <input id="vyhladavanie" type="text" placeholder="Search..">
+        <button onclick="najdiSlovo()">HLADAJ</button>
+        <p id="najdeneSlovo"></p>
+        <h1>Vysledok analýzy</h1>
+        <div>
+            <p id="tuJeDlzka"></p>
+            <p id="druhaDl"></p>
+            <p id="cisl"></p>
+            <p id="slov"></p>
+
+        </div>
+        <button id="sifrovanie">SPUST SIFROVANIE</button>
+        <p id="uloS"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

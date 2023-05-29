@@ -1,0 +1,20 @@
+body {
+    background-image: url(back.jpg);
+}
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+.textarea-wrapper {
+    position: relative;
+  }
+  
+  #pocetZnakov {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    font-size: 12px;
+    color: gray;
+  }
